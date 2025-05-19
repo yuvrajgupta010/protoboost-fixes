@@ -188,7 +188,6 @@ function App() {
 
             <Box sx={{ mt: 0.5, mb: 1, display: "flex", alignItems: "center" }}>
               <FormControlLabel
-                onClick={() => setIsWantToRember((prev) => !prev)}
                 control={<Checkbox size="small" sx={{ p: "2px", mr: 1 }} />}
                 label={
                   <Typography variant="body2" sx={{ color: "#21272e" }}>
